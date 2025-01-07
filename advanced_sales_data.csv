@@ -1,0 +1,11 @@
+Date,Product,Region,Sales,Units Sold,Discount,Category
+2025-01-01,Product A,North,120.5,10,5.00%,Electronics
+2025-01-01,Product B,South,150,15,10.00%,Electronics
+2025-01-02,Product A,East,100,8,7.00%,Electronics
+2025-01-02,Product B,West,NaN,20,5.00%,Furniture
+2025-01-03,Product C,North,180,12,15.00%,Furniture
+2025-01-03,Product A,South,230.75,18,NaN,Electronics
+2025-01-04,Product B,East,200,25,10.00%,Furniture
+2025-01-04,Product C,West,80,NaN,20.00%,Furniture
+2025-01-05,Product A,North,-120,10,5.00%,Electronics
+2025-01-05,Product B,South,150,15,10.00%,Electronics
