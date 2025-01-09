@@ -46,7 +46,14 @@ predictions_df = pd.DataFrame({'year': future_years.flatten(), 'PredictedExchang
 print("\nPredicted Exchange Rates for Next 5 Years:")
 print(predictions_df)
 
-# Step 9: Plot results
+# Step 9: Generate a result (Overwrites every execution, please rename)
+preValue = str(predictions_df)
+wo = open("report.txt","w")
+wo.write(preValue)
+wo.close()
+print("report generated successfully!")
+
+# Step 10: Plot results
 plt.figure(figsize=(10, 6))
 plt.scatter(data['year'], data['rate'], color='blue', label='Actual Data')
 plt.plot(data['year'], model.predict(data[['year']]), color='green', label='Model Prediction')
